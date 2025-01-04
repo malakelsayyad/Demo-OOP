@@ -246,7 +246,7 @@
             //Same Assembly, Derived Class: Accessible because protected allows access in derived classes within the same assembly.
             //Different Assembly: Accessible only in derived classes within a different assembly, as protected allows access to derived classes across assemblies.
             //=================================================
-
+             
             //2.internal protected
             //Same Class: Always accessible because the member belongs to the class itself.
             //Same Assembly, Non-Derived Class: Accessible because the internal part allows access within the same assembly, even for non-derived classes.
